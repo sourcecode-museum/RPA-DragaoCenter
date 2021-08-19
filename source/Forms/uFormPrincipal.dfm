@@ -1,6 +1,6 @@
 object formPrincipal: TformPrincipal
-  Left = 326
-  Top = 126
+  Left = 575
+  Top = 160
   Width = 792
   Height = 577
   Caption = 
@@ -333,7 +333,7 @@ object formPrincipal: TformPrincipal
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -11
-        Font.Name = 'MS Sans Serif'
+        Font.Name = 'Tahoma'
         Font.Style = []
         ParentFont = False
       end
@@ -346,20 +346,20 @@ object formPrincipal: TformPrincipal
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -11
-        Font.Name = 'MS Sans Serif'
+        Font.Name = 'Tahoma'
         Font.Style = []
         ParentFont = False
       end
       object Label12: TLabel
         Left = 8
         Top = 8
-        Width = 56
+        Width = 55
         Height = 13
         Caption = 'Período &de:'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -11
-        Font.Name = 'MS Sans Serif'
+        Font.Name = 'Tahoma'
         Font.Style = []
         ParentFont = False
       end
@@ -381,13 +381,13 @@ object formPrincipal: TformPrincipal
       object Label2: TLabel
         Left = 253
         Top = 8
-        Width = 51
+        Width = 53
         Height = 13
         Caption = 'C&liente Até'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -11
-        Font.Name = 'MS Sans Serif'
+        Font.Name = 'Tahoma'
         Font.Style = []
         ParentFont = False
       end
@@ -473,7 +473,7 @@ object formPrincipal: TformPrincipal
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -11
-        Font.Name = 'MS Sans Serif'
+        Font.Name = 'Tahoma'
         Font.Style = []
         Glyph.Data = {
           F6000000424DF600000000000000760000002800000010000000100000000100
@@ -498,7 +498,7 @@ object formPrincipal: TformPrincipal
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -11
-        Font.Name = 'MS Sans Serif'
+        Font.Name = 'Tahoma'
         Font.Style = []
         ParentFont = False
       end
@@ -512,9 +512,15 @@ object formPrincipal: TformPrincipal
       object Label7: TLabel
         Left = 360
         Top = 8
-        Width = 71
+        Width = 74
         Height = 13
         Caption = 'Ordem de Filtro'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
       end
       object lblCount: TRxLabel
         Left = 4
@@ -529,7 +535,7 @@ object formPrincipal: TformPrincipal
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBtnShadow
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Tahoma'
         Font.Style = []
         ParentColor = False
         ParentFont = False
@@ -584,9 +590,15 @@ object formPrincipal: TformPrincipal
       object Label9: TLabel
         Left = 472
         Top = 48
-        Width = 42
+        Width = 44
         Height = 13
         Caption = '00:00:00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
         Visible = False
       end
       object DBGrid: TDBGrid
@@ -597,12 +609,18 @@ object formPrincipal: TformPrincipal
         Align = alBottom
         Anchors = [akLeft, akTop, akRight, akBottom]
         DataSource = DSPrincipal
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit]
+        ParentFont = False
         TabOrder = 5
         TitleFont.Charset = DEFAULT_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -11
-        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Name = 'Tahoma'
         TitleFont.Style = []
         OnDrawColumnCell = DBGridDrawColumnCell
         OnDblClick = DBGridDblClick
@@ -677,7 +695,13 @@ object formPrincipal: TformPrincipal
         Top = 24
         Width = 87
         Height = 21
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         NumGlyphs = 2
+        ParentFont = False
         CalendarStyle = csDialog
         TabOrder = 0
       end
@@ -727,13 +751,13 @@ object formPrincipal: TformPrincipal
           object Label5: TLabel
             Left = 7
             Top = 7
-            Width = 49
-            Height = 14
+            Width = 46
+            Height = 13
             Caption = 'Descrição'
             Font.Charset = ANSI_CHARSET
             Font.Color = clWindowText
             Font.Height = -11
-            Font.Name = 'Arial'
+            Font.Name = 'Tahoma'
             Font.Style = []
             ParentFont = False
           end
@@ -762,13 +786,13 @@ object formPrincipal: TformPrincipal
             Left = 62
             Top = 4
             Width = 315
-            Height = 22
+            Height = 21
             DataField = 'NOME'
             DataSource = ds_Dizeres
             Font.Charset = ANSI_CHARSET
             Font.Color = clWindowText
             Font.Height = -11
-            Font.Name = 'Arial'
+            Font.Name = 'Tahoma'
             Font.Style = []
             ParentFont = False
             TabOrder = 1
@@ -823,7 +847,7 @@ object formPrincipal: TformPrincipal
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clGray
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Tahoma'
           Font.Style = []
           ParentColor = False
           ParentFont = False
@@ -928,7 +952,13 @@ object formPrincipal: TformPrincipal
         Top = 24
         Width = 89
         Height = 21
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         NumGlyphs = 2
+        ParentFont = False
         CalendarStyle = csDialog
         TabOrder = 1
       end
@@ -938,7 +968,13 @@ object formPrincipal: TformPrincipal
         Width = 50
         Height = 21
         CharCase = ecUpperCase
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         MaxLength = 7
+        ParentFont = False
         TabOrder = 2
         OnExit = ed_ClieDeExit
       end
@@ -948,7 +984,13 @@ object formPrincipal: TformPrincipal
         Width = 50
         Height = 21
         CharCase = ecUpperCase
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         MaxLength = 7
+        ParentFont = False
         TabOrder = 3
         OnExit = ed_ClieAteExit
       end
@@ -962,6 +1004,12 @@ object formPrincipal: TformPrincipal
           'o antes da impressão.'
         Caption = '&Visualizar Impressão'
         Checked = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
         ParentShowHint = False
         ShowHint = True
         State = cbChecked
@@ -973,7 +1021,13 @@ object formPrincipal: TformPrincipal
         Width = 33
         Height = 21
         CharCase = ecUpperCase
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         MaxLength = 7
+        ParentFont = False
         TabOrder = 8
         OnExit = ed_ClieAteExit
       end
@@ -983,7 +1037,13 @@ object formPrincipal: TformPrincipal
         Width = 105
         Height = 21
         Style = csDropDownList
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
         ItemHeight = 13
+        ParentFont = False
         TabOrder = 9
         OnChange = cmbOrdemChange
         Items.Strings = (
@@ -999,6 +1059,12 @@ object formPrincipal: TformPrincipal
         Height = 14
         Caption = 'RequestLive'
         Checked = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
         State = cbChecked
         TabOrder = 10
         Visible = False
